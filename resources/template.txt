@@ -1,0 +1,7 @@
+<script>
+var action=':otliam'.split('').reverse().join('');
+var href='%s'.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<='Z'?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+href=href.substr(0,%s)+String.fromCharCode(4*2*2*4)+href.substr(%s);
+var a='<a href="'+action+href+'">'+href+'</a>';
+document.write(a);
+</script>
