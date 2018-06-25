@@ -30,13 +30,3 @@
             (.replace index index "@")
             (str))))))
 
-
-(comment
- (unobfuscate (obfuscate "example@test.com"))
- (unobfuscate "exampletest.com/7")
- )
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))

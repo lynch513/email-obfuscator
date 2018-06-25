@@ -19,5 +19,3 @@
       index
       index)))
 
-
-(comment (as-html-string "example@test.com"))

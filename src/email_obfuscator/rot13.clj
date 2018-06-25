@@ -20,10 +20,3 @@
             (seq st))
        (apply str)))
 
-(comment 
-  (rot13 "hEllo")
-  (rot13 "uRyyb")
-  (rot13 "The quick brown fox jumps over the lazy dog.")
-  (rot13 "Gur dhvpx oebja sbk whzcf bire gur ynml qbt.")
-  )
-

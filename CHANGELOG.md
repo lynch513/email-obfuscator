@@ -1,24 +1,12 @@
 # Change Log
-All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
+All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-### Changed
-- Add a new arity to `make-widget-async` to provide a different widget shape.
-
-## [0.1.1] - 2018-06-23
-### Changed
-- Documentation on how to make the widgets.
-
-### Removed
-- `make-widget-sync` - we're all async, all the time.
-
-### Fixed
-- Fixed widget maker to keep working when daylight savings switches over.
-
-## 0.1.0 - 2018-06-23
+## [0.1.0-SNAPSHOT] - 2018-06-25
 ### Added
-- Files from the new template.
-- Widget maker public API - `make-widget-sync`.
 
-[Unreleased]: https://github.com/your-name/email-obfuscator/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/your-name/email-obfuscator/compare/0.1.0...0.1.1
+- Added module email-obfuscator.rot13 and rot13 function
+- Added module email-obfuscator.utils and escape-html function
+- Added module email-obfuscator.core and obfuscate and unobfuscate functions 
+- Added module email-obfuscator.html and as-html-string function
+
+
